@@ -1,0 +1,166 @@
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("https://cdn.fonts.net/t/1.css?apiType=css&projectid=9d6c4993-7af8-42eb-aef7-5ba3591e71b6");
+  
+@font-face {
+  font-family: "KairosSansCondensedBold";
+  font-style: normal;
+  font-stretch: condensed;
+  font-display: swap;
+  src: url('KairosSans/KairosSansCondensedBold_normal_condensed.woff2') format('woff2'), url('KairosSans/KairosSansCondensedBold_normal_condensed.woff') format('woff');
+}
+@font-face {
+  font-family: "CenturyGothicRegular";
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+  src: url('CenturyGothic/CenturyGothicRegular_normal_normal.woff2') format('woff2'), url('CenturyGothic/CenturyGothicRegular_normal_normal.woff') format('woff');
+}
+@font-face {
+  font-family: "MyriadLightItalic";
+  font-style: italic;
+  font-stretch: normal;
+  font-display: swap;
+  src: url('Myriad/MyriadLightItalic_italic_normal.woff2') format('woff2'), url('Myriad/MyriadLightItalic_italic_normal.woff') format('woff');
+}
+@font-face {
+  font-family: "TradeGothicBold";
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+  src: url('TradeGothic/TradeGothicBold_normal_normal.woff2') format('woff2'), url('TradeGothic/TradeGothicBold_normal_normal.woff') format('woff');
+}
+@font-face {
+  font-family: "MyriadRegular";
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+  src: url('Myriad/MyriadRegular_normal_normal.woff2') format('woff2'), url('Myriad/MyriadRegular_normal_normal.woff') format('woff');
+}
+@font-face {
+  font-family: "HelveticaNowDisplayLight";
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+  src: url('HelveticaNow/HelveticaNowDisplayLight_normal_normal.woff2') format('woff2'), url('HelveticaNow/HelveticaNowDisplayLight_normal_normal.woff') format('woff');
+}
+@font-face {
+  font-family: "HelveticaNowDisplayBold";
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+  src: url('HelveticaNow/HelveticaNowDisplayBold_normal_normal.woff2') format('woff2'), url('HelveticaNow/HelveticaNowDisplayBold_normal_normal.woff') format('woff');
+}
+@font-face {
+  font-family: "HelveticaNowDisplayMedium";
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+  src: url('HelveticaNow/HelveticaNowDisplayMedium_normal_normal.woff2') format('woff2'), url('HelveticaNow/HelveticaNowDisplayMedium_normal_normal.woff') format('woff');
+}
+@font-face {
+  font-family: "MyriadBold";
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+  src: url('Myriad/MyriadBold_normal_normal.woff2') format('woff2'), url('Myriad/MyriadBold_normal_normal.woff') format('woff');
+}
+@font-face {
+  font-family: "KairosSansCondensedMedium";
+  font-style: normal;
+  font-stretch: condensed;
+  font-display: swap;
+  src: url('KairosSans/KairosSansCondensedMedium_normal_condensed.woff2') format('woff2'), url('KairosSans/KairosSansCondensedMedium_normal_condensed.woff') format('woff');
+}
+@font-face {
+  font-family: "TTNormsProRegular";
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+  src: url('TTNormsPro/TTNormsProRegular_normal_normal.woff2') format('woff2'), url('TTNormsPro/TTNormsProRegular_normal_normal.woff') format('woff');
+}
+@font-face {
+  font-family: "HelveticaNowDisplayLightItalic";
+  font-style: italic;
+  font-stretch: normal;
+  font-display: swap;
+  src: url('HelveticaNow/HelveticaNowDisplayLightItalic_italic_normal.woff2') format('woff2'), url('HelveticaNow/HelveticaNowDisplayLightItalic_italic_normal.woff') format('woff');
+}
+@font-face {
+  font-family: "HelveticaNowDisplayRegular";
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+  src: url('HelveticaNow/HelveticaNowDisplayRegular_normal_normal.woff2') format('woff2'), url('HelveticaNow/HelveticaNowDisplayRegular_normal_normal.woff') format('woff');
+}
+@font-face {
+  font-family: "TTNormsProLight";
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+  src: url('TTNormsPro/TTNormsProLight_normal_normal.woff2') format('woff2'), url('TTNormsPro/TTNormsProLight_normal_normal.woff') format('woff');
+}
+@font-face {
+  font-family: "TTNormsProNormal";
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+  src: url('TTNormsPro/TTNormsProNormal_normal_normal.woff2') format('woff2'), url('TTNormsPro/TTNormsProNormal_normal_normal.woff') format('woff');
+}
+@font-face {
+  font-family: "FFDINCondensedBold";
+  font-style: normal;
+  font-stretch: condensed;
+  font-display: swap;
+  src: url('FFDIN/FFDINCondensedBold_normal_condensed.woff2') format('woff2'), url('FFDIN/FFDINCondensedBold_normal_condensed.woff') format('woff');
+}
+@font-face {
+  font-family: "MyriadLight";
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+  src: url('Myriad/MyriadLight_normal_normal.woff2') format('woff2'), url('Myriad/MyriadLight_normal_normal.woff') format('woff');
+}
+@font-face {
+  font-family: "MyriadSemibold";
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+  src: url('Myriad/MyriadSemibold_normal_normal.woff2') format('woff2'), url('Myriad/MyriadSemibold_normal_normal.woff') format('woff');
+}
+@font-face {
+  font-family: "TTNormsProMedium";
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+  src: url('TTNormsPro/TTNormsProMedium_normal_normal.woff2') format('woff2'), url('TTNormsPro/TTNormsProMedium_normal_normal.woff') format('woff');
+}
+@font-face {
+  font-family: "TTNormsStdCondensedNormal";
+  font-style: normal;
+  font-stretch: condensed;
+  font-display: swap;
+  src: url('TTNormsStdCondensed/TTNormsStdCondensedNormal_normal_condensed.woff2') format('woff2'), url('TTNormsStdCondensed/TTNormsStdCondensedNormal_normal_condensed.woff') format('woff');
+}
+@font-face {
+  font-family: "TTNormsProBold";
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+  src: url('TTNormsPro/TTNormsProBold_normal_normal.woff2') format('woff2'), url('TTNormsPro/TTNormsProBold_normal_normal.woff') format('woff');
+}
+@font-face {
+  font-family: "HelveticaWorldRegular";
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+  src: url('HelveticaWorld/HelveticaWorldRegular_normal_normal.woff2') format('woff2'), url('HelveticaWorld/HelveticaWorldRegular_normal_normal.woff') format('woff');
+}
+@font-face {
+  font-family: "HelveticaWorldBold";
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+  src: url('HelveticaWorld/HelveticaWorldBold_normal_normal.woff2') format('woff2'), url('HelveticaWorld/HelveticaWorldBold_normal_normal.woff') format('woff');
+}
