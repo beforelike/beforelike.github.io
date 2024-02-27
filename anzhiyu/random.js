@@ -1,4 +1,4 @@
-var posts=["2024/02/14/一些照片/","2024/02/24/python算法/","2024/02/14/持蛮干之倔，取巧干之智，扬实干之态/","2024/02/14/挟静心以遨游，承扶摇至苍穹/"];function toRandomPost(){
+var posts=["2024/02/24/python算法/","2024/02/14/一些照片/","2024/02/27/python 的位运算（一）/","2024/02/14/持蛮干之倔，取巧干之智，扬实干之态/","2024/02/14/挟静心以遨游，承扶摇至苍穹/","2024/02/27/矩形切割/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };var friend_link_list=[{"name":"Hexo","link":"https://hexo.io/zh-tw/","avatar":"https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg","descr":"快速、简单且强大的网站框架"},{"name":"Hexo","link":"https://hexo.io/zh-tw/","avatar":"https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg","descr":"快速、簡單且強大的網誌框架"},{"name":"Youtube","link":"https://www.youtube.com/","avatar":"https://i0.imgs.ovh/2024/02/25/uZW2U.png","descr":"視頻網站"},{"name":"Weibo","link":"https://www.weibo.com/","avatar":"https://i0.imgs.ovh/2024/02/25/uZkh0.png","descr":"中國最大社交分享平台"},{"name":"Twitter","link":"https://twitter.com/","avatar":"https://i0.imgs.ovh/2024/02/25/uZ0UC.png","descr":"社交分享平台"}];
     var refreshNum = 1;
