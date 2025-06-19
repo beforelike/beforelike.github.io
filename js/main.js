@@ -203,17 +203,72 @@ document.addEventListener("DOMContentLoaded", function () {
    * 首頁top_img底下的箭頭
    */
   const scrollDownInIndex = () => {
+    let hasScrolledDown = false;
+    
     const handleScrollToDest = () => {
       const bbTimeList = document.getElementById("bbTimeList");
       if (bbTimeList) {
-        anzhiyu.scrollToDest(bbTimeList.offsetTop - 62, 300);
+        anzhiyu.scrollToDest(bbTimeList.offsetTop - 120, 300);
       } else {
-        anzhiyu.scrollToDest(document.getElementById("home_top").offsetTop - 60, 300);
+        anzhiyu.scrollToDest(document.getElementById("home_top").offsetTop - 120, 300);
+      }
+      
+      // 标记已经滚动到内容区域
+      hasScrolledDown = true;
+      
+      // 添加历史记录状态，防止返回到subtitle页面
+      if (window.history && window.history.pushState) {
+        const currentUrl = window.location.href;
+        const newUrl = currentUrl.split('#')[0] + '#main-content';
+        window.history.pushState(
+          {
+            url: newUrl,
+            title: document.title,
+            scrolled: true
+          },
+          document.title,
+          newUrl
+        );
       }
     };
 
     const $scrollDownEle = document.getElementById("scroll-down");
     $scrollDownEle && anzhiyu.addEventListenerPjax($scrollDownEle, "click", handleScrollToDest);
+    
+    // 监听滚动事件，防止用户滚动回到subtitle区域
+    const handleScroll = () => {
+      if (hasScrolledDown && GLOBAL_CONFIG_SITE.isHome) {
+        const currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        const homeTopElement = document.getElementById("home_top");
+        const minScrollTop = homeTopElement ? homeTopElement.offsetTop - 120 : 0;
+        
+        // 如果用户试图滚动到subtitle区域，强制保持在内容区域
+        if (currentScrollTop < minScrollTop) {
+          window.scrollTo({
+            top: minScrollTop,
+            behavior: 'smooth'
+          });
+        }
+      }
+    };
+    
+    // 添加滚动监听
+    window.addEventListener('scroll', handleScroll, { passive: false });
+    
+    // 监听浏览器返回事件，确保返回时停留在主内容区域
+    window.addEventListener('popstate', function(event) {
+      if (event.state && event.state.scrolled && GLOBAL_CONFIG_SITE.isHome) {
+        hasScrolledDown = true;
+        setTimeout(() => {
+          const bbTimeList = document.getElementById("bbTimeList");
+          if (bbTimeList) {
+            anzhiyu.scrollToDest(bbTimeList.offsetTop - 100, 0);
+          } else {
+            anzhiyu.scrollToDest(document.getElementById("home_top").offsetTop - 100, 0);
+          }
+        }, 100);
+      }
+    });
   };
 
   /**

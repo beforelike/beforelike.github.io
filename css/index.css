@@ -2903,7 +2903,7 @@ hr:before {
   left: 5%;
   z-index: 1;
   color: var(--hr-before-color);
-  content: '\f0c4';
+  content: '\fa-500px';
   font-size: 16px;
   line-height: 1;
   -webkit-transition: all 1s ease-in-out;
@@ -21161,8 +21161,150 @@ body[data-type="album"] #page .page-title {
   }
 }
 
+/* 调整site-info垂直居中 */
+#site-info {
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+}
+
 h1#site-title {
   font-size: 3em !important;
+  color: transparent !important;
+  text-shadow: none !important;
+  position: relative !important;
+  height: 300px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 100% !important;
+  margin: 0 auto !important;
+}
+
+/* 像素块拼接BEFORELIKE */
+h1#site-title::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(5);
+  width: 12px;
+  height: 12px;
+  background: var(--white);
+  box-shadow: 
+    /* B字母 */
+    -270px 0px 0 var(--white), -258px 0px 0 var(--white), -246px 0px 0 var(--white), -234px 0px 0 var(--white),
+    -270px 12px 0 var(--white), -234px 12px 0 var(--white),
+    -270px 24px 0 var(--white), -258px 24px 0 var(--white), -246px 24px 0 var(--white),
+    -270px 36px 0 var(--white), -234px 36px 0 var(--white),
+    -270px 48px 0 var(--white), -258px 48px 0 var(--white), -246px 48px 0 var(--white), -234px 48px 0 var(--white),
+    
+    /* E字母 */
+    -210px 0px 0 var(--white), -198px 0px 0 var(--white), -186px 0px 0 var(--white), -174px 0px 0 var(--white),
+    -210px 12px 0 var(--white),
+    -210px 24px 0 var(--white), -198px 24px 0 var(--white), -186px 24px 0 var(--white),
+    -210px 36px 0 var(--white),
+    -210px 48px 0 var(--white), -198px 48px 0 var(--white), -186px 48px 0 var(--white), -174px 48px 0 var(--white),
+    
+    /* F字母 */
+    -150px 0px 0 var(--white), -138px 0px 0 var(--white), -126px 0px 0 var(--white), -114px 0px 0 var(--white),
+    -150px 12px 0 var(--white),
+    -150px 24px 0 var(--white), -138px 24px 0 var(--white), -126px 24px 0 var(--white),
+    -150px 36px 0 var(--white),
+    -150px 48px 0 var(--white),
+    
+    /* O字母 */
+    -90px 0px 0 var(--white), -78px 0px 0 var(--white), -66px 0px 0 var(--white),
+    -90px 12px 0 var(--white), -66px 12px 0 var(--white),
+    -90px 24px 0 var(--white), -66px 24px 0 var(--white),
+    -90px 36px 0 var(--white), -66px 36px 0 var(--white),
+    -90px 48px 0 var(--white), -78px 48px 0 var(--white), -66px 48px 0 var(--white),
+    
+    /* R字母 */
+    -42px 0px 0 var(--white), -30px 0px 0 var(--white), -18px 0px 0 var(--white),
+    -42px 12px 0 var(--white), -6px 12px 0 var(--white),
+    -42px 24px 0 var(--white), -30px 24px 0 var(--white), -18px 24px 0 var(--white),
+    -42px 36px 0 var(--white), -18px 36px 0 var(--white),
+    -42px 48px 0 var(--white), -6px 48px 0 var(--white),
+    
+    /* E字母 */
+    18px 0px 0 var(--white), 30px 0px 0 var(--white), 42px 0px 0 var(--white), 54px 0px 0 var(--white),
+    18px 12px 0 var(--white),
+    18px 24px 0 var(--white), 30px 24px 0 var(--white), 42px 24px 0 var(--white),
+    18px 36px 0 var(--white),
+    18px 48px 0 var(--white), 30px 48px 0 var(--white), 42px 48px 0 var(--white), 54px 48px 0 var(--white),
+    
+    /* L字母 */
+    78px 0px 0 var(--white),
+    78px 12px 0 var(--white),
+    78px 24px 0 var(--white),
+    78px 36px 0 var(--white),
+    78px 48px 0 var(--white), 90px 48px 0 var(--white), 102px 48px 0 var(--white), 114px 48px 0 var(--white),
+    
+    /* I字母 */
+    138px 0px 0 var(--white), 150px 0px 0 var(--white), 162px 0px 0 var(--white),
+    150px 12px 0 var(--white),
+    150px 24px 0 var(--white),
+    150px 36px 0 var(--white),
+    138px 48px 0 var(--white), 150px 48px 0 var(--white), 162px 48px 0 var(--white),
+    
+    /* K字母 */
+    186px 0px 0 var(--white), 210px 0px 0 var(--white),
+    186px 12px 0 var(--white), 198px 12px 0 var(--white),
+    186px 24px 0 var(--white),
+    186px 36px 0 var(--white), 198px 36px 0 var(--white),
+    186px 48px 0 var(--white), 210px 48px 0 var(--white),
+    
+    /* E字母 */
+    234px 0px 0 var(--white), 246px 0px 0 var(--white), 258px 0px 0 var(--white), 270px 0px 0 var(--white),
+    234px 12px 0 var(--white),
+    234px 24px 0 var(--white), 246px 24px 0 var(--white), 258px 24px 0 var(--white),
+    234px 36px 0 var(--white),
+    234px 48px 0 var(--white), 246px 48px 0 var(--white), 258px 48px 0 var(--white), 270px 48px 0 var(--white);
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+  h1#site-title {
+    height: 200px !important;
+  }
+  h1#site-title::before {
+    width: 8px;
+    height: 8px;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1199px) {
+  h1#site-title {
+    height: 250px !important;
+  }
+  h1#site-title::before {
+    width: 10px;
+    height: 10px;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+@media (min-width: 1200px) {
+  h1#site-title {
+    height: 300px !important;
+  }
+  h1#site-title::before {
+    width: 6px;
+    height: 6px;
+    transform: translate(-25%, -25%) scale(2);
+  }
+}
+
+@media (min-width: 1600px) {
+  h1#site-title {
+    height: 350px !important;
+  }
+  h1#site-title::before {
+    width: 12px;
+    height: 12px;
+    transform: translate(-50%, -50%) scale(2);
+  }
 }
 
 .iconfont {
