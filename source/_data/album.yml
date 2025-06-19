@@ -1,0 +1,162 @@
+- class_name: 世界各地夕阳与风景
+  path_name: /wordScenery
+  type: 2
+  description: 各地的夕阳与风景🌇。
+  cover: https://tc.z.wiki/autoupload/Be5fZ-ROdLts743MADrjhdiO_OyvX7mIgxFBfDMDErs/20250617/46tI/240X240/1743156161575.gif
+  top_background: https://tc.z.wiki/autoupload/Be5fZ-ROdLts743MADrjhdiO_OyvX7mIgxFBfDMDErs/20250617/rHS0/3072X1680/1745655478160.png
+  rowHeight: 220
+  limit: 10
+  lazyload: true
+  btnLazyload: false
+  url: false
+  top_link: /album
+  top_btn_text: 返回
+  album_list:
+    - date: 2025-02-20
+      content: 早上好
+      address: 四川 泸沽
+      from: beforelike
+      image:
+        - http://47.95.195.227/i/2025/02/11/gvgboa-0.jpg
+        - http://47.95.195.227/i/2025/02/11/gvg0a4-0.jpg
+        - http://47.95.195.227/i/2025/02/11/gvfzbl-0.jpg
+    - date: 2023/10/26 01:00:00
+      content: 好大的雾
+      address: 四川 泸沽
+      from: beforelike
+      image:
+        - http://47.95.195.227/i/2025/02/11/gvgefk-0.jpg
+    - date: 2022-10-25
+      content: 四川博物馆
+      address: 四川 成都
+      from: beforelike
+      image:
+        - http://47.95.195.227/i/2025/02/11/sjb0p3-0.webp
+        - http://47.95.195.227/i/2025/02/11/sjnx1c-0.webp
+    - date: 2022-10-25
+      content: 河水不犯河水
+      address: 四川 复兴
+      from: beforelike
+      image:
+        - http://47.95.195.227/i/2025/02/11/gvdiw8-0.jpg
+    - date: 2022/10/26 01:00:00
+      content: 湘潭的一角。
+      address: 湖南湘潭
+      from: 再吃一口就减肥
+      image:
+        - https://bu.dusays.com/2023/04/09/64329399db122.webp
+    - date: 2022-10-25
+      content: 洛阳暴雨后的天空。
+      address: 河南洛阳
+      from: 紫菜卷
+      image:
+        - https://bu.dusays.com/2023/04/09/64329399db122.webp
+        - https://bu.dusays.com/2023/04/09/64329399db2e1.webp
+
+- class_name: 我的日常
+  path_name: /dailyPhoto
+  type: 1
+  description: 这里存放的是有关我自己的一些沙雕生活与有趣的事情。
+  top_link: /album
+  top_btn_text: 返回
+  top_background: https://bu.dusays.com/2023/04/09/64329399cea5a.webp
+  cover: https://bu.dusays.com/2023/04/09/64329399cea5a.webp
+  album_list:
+    - date: 2025-02-20
+      content: 早上为了看太阳
+      image:
+        - http://47.95.195.227/i/2025/02/11/gvep5w-0.jpg
+    - date: 2025-02-20
+      content: 新年快乐
+      image:
+        - http://47.95.195.227/i/2025/02/11/gvgfj1-0.jpg
+        - http://47.95.195.227/i/2025/02/11/sj9wf9-0.webp
+    - date: 2024/10/26 01:00:00
+      content: 时光穿梭机
+      image:
+        - http://47.95.195.227/i/2025/02/11/sjx38h-0.webp
+        - http://47.95.195.227/i/2025/02/11/sjwhcg-0.webp
+    - date: 2022/10/26 01:00:00
+      content: 莫道桑榆晚，为霞尚满天
+      image:
+        - http://47.95.195.227/i/2025/02/11/pbnk9f-0.jpg
+    - date: 2022-07-01
+      content: 早上6点，割谷子
+      image:
+        - http://47.95.195.227/i/2025/02/11/gvelnr-0.jpg
+    - date: 2022-10-24
+      content: 曾经也是踌躇不前
+      image:
+        - http://47.95.195.227/i/2025/02/11/gvgonz-0.jpg
+        - http://47.95.195.227/i/2025/02/11/si60bz-0.jpg
+
+- class_name: 神奇的世界
+  path_name: /mysecr
+  type: 2
+  rowHeight: 220
+  limit: 10
+  lazyload: true
+  btnLazyload: false
+  url: false
+  description: 发现这个这世界有点神奇。
+  top_link: /album
+  top_btn_text: 返回
+  top_background: https://tc.z.wiki/autoupload/Be5fZ-ROdLts743MADrjhdiO_OyvX7mIgxFBfDMDErs/20250617/W9My/3072X1680/1745655483926.png
+  cover: https://tc.z.wiki/autoupload/Be5fZ-ROdLts743MADrjhdiO_OyvX7mIgxFBfDMDErs/20250617/cnXE/1248X1981/1745655557821.png
+  album_list:
+    - date: 2025-02-20
+      content: 好大的雪
+      image:
+        - http://47.95.195.227/i/2025/02/11/gve7b2-0.jpg
+        - http://47.95.195.227/i/2025/02/11/gve2a1-0.jpg
+    - date: 2025-02-08
+      content: 认真练武术的桌子
+      image:
+        - http://47.95.195.227/i/2025/02/11/gvdy8h-0.jpg
+        - http://47.95.195.227/i/2025/02/11/gvdzxa-0.jpg
+    - date: 2024-10-25
+      content: 慕斯蛋糕
+      image:
+        - http://47.95.195.227/i/2025/02/11/gvfl1s-0.jpg
+    - date: 2022-10-23
+      content: 一只猫
+      image:
+        - http://47.95.195.227/i/2025/02/11/h0wkgd-0.jpg
+
+
+- class_name: 这样很帅
+  path_name: /nbpicture
+  type: 1
+  description: 发现一些瞬间。
+  top_link: /album
+  top_btn_text: 返回
+  top_background: https://tc.z.wiki/autoupload/Be5fZ-ROdLts743MADrjhdiO_OyvX7mIgxFBfDMDErs/20250617/i2Lt/4880X2752/1750053057413.png
+  cover: https://tc.z.wiki/autoupload/Be5fZ-ROdLts743MADrjhdiO_OyvX7mIgxFBfDMDErs/20250617/i2Lt/4880X2752/1750053057413.png
+  album_list:
+    - date: 2025-02-20
+      content: 橘子甜过初恋，可是大爷的回忆~~
+      from: 伤心的大爷
+      address: 买橘子的大爷
+      image:
+        - http://47.95.195.227/i/2025/02/11/gvh2dz-0.jpg
+    - date: 2025-02-20
+      content: 真想给你一颗糖
+      address: 真想给你一颗糖
+      image:
+        - http://47.95.195.227/i/2025/02/11/gvdjxh-0.jpg
+    - date: 2024-10-26
+      content: 你见过她吗？
+      address: 你见过她吗？
+      image:
+        - http://47.95.195.227/i/2025/02/11/su2bdg-0.jpg
+    - date: 2022-10-25  
+      content: 有一股力量
+      address: 有一股力量
+      image:
+        - http://47.95.195.227/i/2025/02/11/svos9z-0.jpg
+        - http://47.95.195.227/i/2025/02/11/sy5u4k-0.jpg
+    - date: 2022-10-25
+      content: 那年，我在乌克兰打暑假工
+      address: 乌克兰
+      image:
+        - http://47.95.195.227/i/2025/02/11/swqr03-0.jpeg
