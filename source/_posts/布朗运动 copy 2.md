@@ -1,0 +1,98 @@
+---
+title: 光从太阳到地球竟然需要500万年
+date: 2025-01-28 15:01:39
+tags: 探索
+ai:
+  - 布朗运动是爱因斯坦奇迹的一个Proof。
+  - 有其他问题请参考论文消息。😁
+keywords: C/2023 A3彗星（紫金山-阿特拉斯）
+categories: 天文
+description: 这是一篇科普
+toc: true
+indexing: true
+index_img: https://tc.z.wiki/autoupload/Be5fZ-ROdLts743MADrjhdiO_OyvX7mIgxFBfDMDErs/20250617/wkPd/3840X2160/2023-10-31.OHR.HalloweenCuteAI-ZH-CN1079713117-UHD.3nrcsx7rh9.webp
+top_img: https://tc.z.wiki/autoupload/Be5fZ-ROdLts743MADrjhdiO_OyvX7mIgxFBfDMDErs/20250617/wkPd/3840X2160/2023-10-31.OHR.HalloweenCuteAI-ZH-CN1079713117-UHD.3nrcsx7rh9.webp
+cover: https://tc.z.wiki/autoupload/Be5fZ-ROdLts743MADrjhdiO_OyvX7mIgxFBfDMDErs/20250617/wkPd/3840X2160/2023-10-31.OHR.HalloweenCuteAI-ZH-CN1079713117-UHD.3nrcsx7rh9.webp
+main_color: #51c4d3
+---
+# 布朗运动
+
+太阳发出的光需要多久才能到达地球？
+
+## 发现
+
+英国植物学家布朗，发现花粉在水中游动，猜测原因：
+
+1. 花粉有生命 ———> 将花粉炒熟，
+2. 外界干扰（气流，水的蒸发……）————> 实验控制外界干扰，
+3. 水中有微生物 ———> 将花粉换做镁粉，使用酒精，煤油
+
+布朗做了实验了以上方法后，发现，花粉任然会运动。出现原子解释。
+
+1. 水分子的无规则运动
+2. 撞击花粉不均匀
+3. 温度高，布朗运动剧烈
+
+## 爱因斯坦证明原子存在
+
+### 无规则行走问题
+
+如果把时间离散化为步长$\Delta t$的小段,令 $t = n\Delta t$,同时保持$\Delta t$适当大,使得每小段时间头尾 的运动彼此无关,于是行走$n$步的结果$x_n$就是n个 独立随机变量之和.自然,
+
+$$ < x_n > = 0,< x_n^2 > \Rightarrow n $$
+
+可见,均方距离并不是正比于步数n,
+
+
+$$
+\begin{matrix}
+1 & x & x^2 \\
+1 & y & y^2 \\
+1 & z & z^2 \\
+\end{matrix}
+$$
+
+
+步长 $|\vec{x_i}| = L$ 
+
+距离 $$ R_N =\sum_{i=1}^N \vec{x_i} $$
+
+### 花粉位置随时间变化的规律
+
+1.   假设花粉每走一步$|a_n|=1$，方向随机
+2.   求N步之后$<|S_n|> = ?$
+
+怎么q求$S_n$呢？
+
+ ![向量法](https://cdn.jsdelivr.net/gh/beforelike/picx-images-hosting@master/向量法_布朗运动.1vyr8r7cnx.jpg)
+
+
+
+如果：
+
+1.   $n=1 ,S_1 = a_1 = 1$
+2.   $\vec S_n = \vec S_{n-1} +\vec a_n$
+
+所以：
+
+$S_n^2 = S_{n-1}^2 + a_n^2+2\vec S_{n-1} . \vec a_n$ 因为 $2\vec S_{n-1}$和$\vec a_n$方向随机，平均值等于0。
+
+$$< S_n^2 > = < S_{n-1}^2 > + < a_n^2 >$$，$an$为步长，
+
+$<|S_n|> = \sqrt x a_n$
+
+## 太阳光
+
+所以我们需要知道分子的平均速度$v$，扩散时间$t$,平均自由程$L$也就是$a_n$。就是每次不转向所走长度。
+
+每步$t_0 = \frac{L}{v}$，步数$N=\frac{t}{t_0}=\frac{vt}{L}$，$< S_n > = \sqrt{vtL}$
+
+太阳光：
+
+假设光需要从太阳中心开始扩散，扩散距离为太阳半径。$R = 7×10^8m，v = 3×10^8m,L=10^{-5}m$
+
+得出光从太阳中心扩散到表面的距离是$t = \frac{R_N^2}{vL} =5000000年$
+
+
+
+

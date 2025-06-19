@@ -1,0 +1,158 @@
+- class_name: 关于页
+  subtitle: 生活明朗，万物可爱✨
+  avatarImg: https://tc.z.wiki/autoupload/Be5fZ-ROdLts743MADrjhdiO_OyvX7mIgxFBfDMDErs/20250617/LyCV/300X300/header.png
+  avatarSkills:
+    left:
+      - 🤖️ 数码科技爱好者
+      - 🔍 分享与热心帮助
+      - 🏠 智能家居小能手
+      - 🔨 爱动手破坏大王
+    right:
+      - 睡觉姿势研究员 🤝
+      - 脚踏实地行动派 🏃
+      - 团队小组发动机 🧱
+      - 不爱说话爱发呆 💢
+  name: beforelieke
+  description: 是一名 每天能睡 25 小时 的黑娃儿
+  aboutsiteTips:
+    tips: 追求
+    title1: 源于
+    title2: 热爱而去 接触
+    word:
+      - 编程
+      - 彗星
+      - 日食
+      - 辩论
+      - 历史
+      - 拍照
+      - 射线
+      - 物理
+      - 数学
+      - 自我
+  helloAbout: Hello world
+  skillsTips:
+    tips: 技能
+    title: 点亮创造力
+  careers:
+    tips: 生涯
+    title: 无限进步
+    list:
+      - desc: SKILL,Python
+        color: "#a61b29"
+      - desc: SKILL,医学
+        color: "#ede3e7"
+      - desc: SKILL,天体
+        color: "#357ef5"
+    img: https://bu.dusays.com/2023/04/21/644287166329b.png
+  statistic:
+    link: /archives
+    text: 文章隧道
+    cover: https://bu.dusays.com/2023/05/01/644f4b037b930.jpg
+  map:
+    title: 我现在住在
+    StrengthenTitle: 中国，凉山州
+    background: https://gitee.com/beforelike/picgo/raw/master/image.2vehb7elpw.webp
+    backgroundDark: https://gitee.com/beforelike/picgo/raw/master/image.101wil1dst.webp
+  selfInfo:
+    selfInfoTips1: 生于
+    selfInfoContentYear: 2004
+    selfInfoTips2: 从明天起，劈柴，喂马
+    selfInfoContent2: 做一个快乐的人
+    selfInfoTips3: 智者不入爱河
+    selfInfoContent3: 溺死摡不负责😜
+  personalities:
+    author_name: 小画家
+    personality_type: INFP
+    photo_url: https://tc.z.wiki/autoupload/Be5fZ-ROdLts743MADrjhdiO_OyvX7mIgxFBfDMDErs/20250617/WjYO/400X225/people.gif
+    personality_img: https://www.16personalities.com/static/images/personality-types/avatars/isfp-adventurer-female.svg?v=3
+    name_url: https://www.16personalities.com/isfp-personality
+  maxim:
+    maxim_tips: 喜欢的一句话
+    maxim_top: 活人就该有动静，
+    maxim_bottom: 活人就该去打仗。
+  buff:
+    buff_tips: 特征
+    buff_top: 像脑回路新奇的 炭烤包谷
+    buff_bottom: 唯有 情绪价值 MAX
+  game:
+    game_tips: 最近游戏
+    game_title: 三角洲
+    game_uid: "游戏ID：带心来"
+    game_bg: https://game.gtimg.cn/images/dfm/cp/a20240906main/p3_img1.jpg
+  comic:
+    comic_tips: 爱好影视
+    comic_title: 电影
+    comic_list:
+      - name: 天气之子
+        href: https://www.bilibili.com/bangumi/media/md5267750/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
+        cover: https://gitee.com/beforelike/picgo/raw/master/p2571769106.1vyr0zj790.webp
+      - name: 硅谷
+        href: https://www.bilibili.com/bangumi/media/md28229899/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
+        cover: https://gitee.com/beforelike/picgo/raw/master/image.1754e0r19b.webp
+      - name: 深海
+        href: https://www.bilibili.com/bangumi/media/md8892/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
+        cover: https://gitee.com/beforelike/picgo/raw/master/p2886934034.7lk3ckc0in.webp
+      - name: 刺客伍六七
+        href: https://www.bilibili.com/bangumi/media/md22718131/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
+        cover: https://gitee.com/beforelike/picgo/raw/master/p2913726138.7egvhxecz3.webp
+      - name: 罗小黑战记
+        href: https://www.bilibili.com/bangumi/media/md135652/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
+        cover: https://gitee.com/beforelike/picgo/raw/master/p2559073920.6t77vmllw2.webp
+  like:
+    like_tips: 业余兴趣
+    like_title: 航空航天
+    like_bg: https://science.nasa.gov/wp-content/uploads/2023/06/solar-system-illustration-16x9-1.jpg
+    like_bottom: 就是能飞的，飞很远的
+  music:
+    music_tips: 音乐偏好
+    music_title: 邓紫棋、纯音乐、国语
+    music_bg: https://gitee.com/beforelike/picgo/raw/master/image.2yy38xbij8.webp
+    music_link: /music
+  reward_list:
+    - name: 海阔蓝
+      amount: 8.8
+      datatime: 2023-03-28
+    # - name: LK66
+    #   amount: 66.6
+    #   datatime: 2023-03-24
+    # - name: 张时貳
+    #   amount: 6.6
+    #   datatime: 2023-01-22
+    # - name: ZeroAf
+    #   amount: 9.9
+    #   datatime: 2022-12-14
+    # - name: LuckyWangXi
+    #   amount: 6.6
+    #   datatime: 2022-12-14
+    # - name: 刀中日月长
+    #   amount: 10
+    #   datatime: 2022-11-16
+    # - name: 鹿啵包
+    #   amount: 10
+    #   datatime: 2022-11-08
+    # - name: 疾速k
+    #   amount: 50
+    #   datatime: 2022-09-20
+    # - name: 伴舟先生大霖子
+    #   amount: 4.03
+    #   datatime: 2022-10-27
+    #   suffix: 贝壳
+    # - name: Magica_0x0
+    #   amount: 3.36
+    #   datatime: 2022-10-07
+    #   suffix: 贝壳
+    # - name: 名字就是要短像这样
+    #   amount: 3.36
+    #   datatime: 2022-08-25
+    #   suffix: 贝壳
+    # - name: Leviathan520
+    #   amount: 1.34
+    #   datatime: 2022-08-23
+    #   suffix: 贝壳
+    # - name: 托马斯
+    #   amount: 10
+    #   datatime: 2022-08-19
+    # - name: 哇是猫猫欸
+    #   amount: 1.34
+    #   datatime: 2022-08-19
+    #   suffix: 贝壳
