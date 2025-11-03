@@ -25,10 +25,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Fetch theme (anzhiyu) without submodules
-        run: |
-          rm -rf themes/anzhiyu
-          git clone --depth=1 https://github.com/anzhiyu-c/hexo-theme-anzhiyu.git themes/anzhiyu
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
