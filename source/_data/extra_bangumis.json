@@ -1,0 +1,13 @@
+{
+  "watchedExtra": [
+    {
+      "title": "番剧标题",
+      "type": "番剧",
+      "area": "日本",
+      "cover": "vhttps://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Convenience-Store-Notes2/022.png",
+      "totalCount": "全12话",
+      "link": "https://example.com/xxx",
+      "des": "简介内容..."
+    }
+  ]
+}

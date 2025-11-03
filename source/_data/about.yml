@@ -1,0 +1,152 @@
+- class_name: 关于页
+  subtitle: 你好，我是law sin✨
+  avatarImg: https://camo.githubusercontent.com/8cb1a623a293e923f5050f479246f7d1bcf363180ae8d5b821335050943a6774/68747470733a2f2f632e74656e6f722e636f6d2f534f564d53586d5742316b41414141692f746f6e792d737461722d6a756d70696e672e676966
+  avatarSkills:
+    left:
+      - 🤖️ 数码科技爱好者
+      - 🔍 分享与热心帮助
+      - 🏠 智能家居小能手
+      - 🔨 设计开发一条龙
+    right:
+      - 专修交互与设计 🤝
+      - 脚踏实地行动派 🏃
+      - 团队小组发动机 🧱
+      - 壮汉人狠话不多 💢
+  name: law sin
+  description: 是一名 代码畜、学生、独立开发者
+  aboutsiteTips:
+    tips: 追求
+    title1: 源于
+    title2: 热爱而去 感受
+    word:
+      - 学习
+      - 生活
+      - 程序
+      - 体验
+  helloAbout: 无限进步
+  skillsTips:
+    tips: 技能
+    title: 开启创造力
+  careers:
+    tips: 生涯
+    title: 慢慢长大
+    list:
+      - desc: skill 编程
+        color: "#357ef5"
+      - desc: learn 影像
+        color: "#357ef5"
+      - desc: do 科研
+        color: "#357ef5"
+    img: https://bu.dusays.com/2023/04/21/644287166329b.png
+  statistic:
+    link: /archives
+    text: 文章隧道
+    cover: https://bu.dusays.com/2023/05/01/644f4b037b930.jpg
+  map:
+    title: 我现在住在
+    StrengthenTitle: 中国，大凉山
+    background: https://beforelike.github.io/picx-images-hosting/image.2vehb7elpw.webp
+    backgroundDark: https://beforelike.github.io/picx-images-hosting/image.2vehb7elpw.webp
+  selfInfo:
+    selfInfoTips1: 生于
+    selfInfoContentYear: 2004
+    selfInfoTips2: 从 四川 
+    selfInfoContent2: 没见过世面
+    selfInfoTips3: 啥都想做
+    selfInfoContent3: 学生👨‍🎓
+  personalities:
+    author_name: 小画家
+    personality_type: ISFP
+    photo_url: https://camo.githubusercontent.com/d1e9733ec79822bcadf8b9a1035840ee511e2f022fe9f652cc163db23dc171d3/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f53576f536b4e36447854737a71494b4571762f67697068792e676966
+    personality_img: https://www.16personalities.com/static/images/personality-types/avatars/isfp-adventurer-female.svg?v=3
+    name_url: https://www.16personalities.com/isfp-personality
+  maxim:
+    maxim_tips: 座右铭
+    maxim_top: 火熄灭了都会有余温
+    maxim_bottom: 依旧有燃烧的可能
+  buff:
+    buff_tips: 特长
+    buff_top: 只有七秒钟动力的 stone
+    buff_bottom: 中二指数 一般
+  game:
+    game_tips: 爱好游戏
+    game_title: 地平线
+    game_uid: "不是渴望速度与激情，只是追求一刻放空"
+    game_bg: https://tse1-mm.cn.bing.net/th/id/OIP-C.4AmCAbh7HBzD8_v5XIn2TwHaEK?w=317&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3
+  comic:
+    comic_tips: 爱好番剧
+    comic_title: 追番
+    comic_list:
+      - name: 罗小黑战记
+        href: https://www.bilibili.com/bangumi/media/md5267750/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
+        cover: https://beforelike.github.io/picx-images-hosting/image.7p3pa7mr31.png
+      - name: 硅谷
+        href: https://www.bilibili.com/bangumi/media/md28229899/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
+        cover: https://beforelike.github.io/picx-images-hosting/image.1754e0r19b.webp
+      - name: 深海
+        href: https://www.bilibili.com/bangumi/media/md8892/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
+        cover: https://beforelike.github.io/picx-images-hosting/image.1lbx7rqqwn.png
+      - name: 中二病也要谈恋爱
+        href: https://www.bilibili.com/bangumi/media/md22718131/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
+        cover: https://beforelike.github.io/picx-images-hosting/image.1hry766ngi.webp
+      - name: 猫和老鼠
+        href: https://www.bilibili.com/bangumi/media/md135652/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
+        cover: https://beforelike.github.io/picx-images-hosting/image.839ry79k42.webp
+  like:
+    like_tips: 关注偏好
+    like_title: 一闪一闪的星星
+    like_bg: https://tse1-mm.cn.bing.net/th/id/OIP-C.FVj6Mrr7Y4JIQ5dZ4ZwBJAHaE8?w=274&h=183&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3
+    like_bottom: 又大又可以飞起来
+  music:
+    music_tips: 音乐偏好
+    music_title: 邓紫棋、民谣、华语流行
+    music_bg: https://beforelike.github.io/picx-images-hosting/image.2yy38xbij8.webp
+    music_link: /music
+  reward_list:
+    - name: 海阔蓝
+      amount: 8.8
+      datatime: 2023-03-28
+    - name: LK66
+      amount: 66.6
+      datatime: 2023-03-24
+    - name: 张时貳
+      amount: 6.6
+      datatime: 2023-01-22
+    - name: ZeroAf
+      amount: 9.9
+      datatime: 2022-12-14
+    - name: LuckyWangXi
+      amount: 6.6
+      datatime: 2022-12-14
+    - name: 刀中日月长
+      amount: 10
+      datatime: 2022-11-16
+    - name: 鹿啵包
+      amount: 10
+      datatime: 2022-11-08
+    - name: 疾速k
+      amount: 50
+      datatime: 2022-09-20
+    - name: 伴舟先生大霖子
+      amount: 4.03
+      datatime: 2022-10-27
+      suffix: 贝壳
+    - name: Magica_0x0
+      amount: 3.36
+      datatime: 2022-10-07
+      suffix: 贝壳
+    - name: 名字就是要短像这样
+      amount: 3.36
+      datatime: 2022-08-25
+      suffix: 贝壳
+    - name: Leviathan520
+      amount: 1.34
+      datatime: 2022-08-23
+      suffix: 贝壳
+    - name: 托马斯
+      amount: 10
+      datatime: 2022-08-19
+    - name: 哇是猫猫欸
+      amount: 1.34
+      datatime: 2022-08-19
+      suffix: 贝壳
