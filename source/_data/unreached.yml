@@ -1,0 +1,21 @@
+## 此生未到（想去的地方）
+# 每个条目包含名称、配图与原因描述
+places:
+  - name: 冰岛
+    image: https://images.unsplash.com/photo-1500048993953-d23a436266cf?q=80&w=1600&auto=format&fit=crop
+    reason: 想去看极光与冰川，体验纯粹的冷与静。
+  - name: 巴塔哥尼亚
+    image: https://images.unsplash.com/photo-1549880338-65ddcdfd017b?q=80&w=1600&auto=format&fit=crop
+    reason: 世界尽头的风与山脊，徒步的终极浪漫。
+  - name: 圣托里尼
+    image: https://images.unsplash.com/photo-1507089947368-19c1da9775ae?q=80&w=1600&auto=format&fit=crop
+    reason: 想在蓝白之间度过一场落日与海风。
+  - name: 西藏·阿里
+    image: https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1600&auto=format&fit=crop
+    reason: 去更靠近天空的地方，做一次与自己对话的旅行。
+  - name: 肯尼亚·马赛马拉
+    image: https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?q=80&w=1600&auto=format&fit=crop
+    reason: 生命的洪流在迁徙，想与自然一起心跳。
+  - name: 东京
+    image: https://images.unsplash.com/photo-1518544801976-3e0b8d48b530?q=80&w=1600&auto=format&fit=crop
+    reason: 想走进霓虹与街角，在人间烟火里做梦。

@@ -1,0 +1,25 @@
+#unreached
+  - let unreached_background = page.top_background
+  .author-content.author-content-item.single(style=`${unreached_background ? `background: url(${unreached_background}) center / cover no-repeat;` : ""}`)
+    .card-content
+      .author-content-item-tips 此生未到
+      span.author-content-item-title 青春不设限，世界在等你👣
+      .content-bottom
+        .tips 把想去的地方写在这儿，让生活有方向。
+      .banner-button-group
+        a.banner-button(onclick='pjax.loadUrl("/about/")')
+          i.anzhiyufont.anzhiyu-icon-arrow-circle-right(style='font-size: 1.5rem')
+          span.banner-button-text 关于本人
+
+  if site.data.unreached && site.data.unreached.places
+    .unreached-grid
+      each place in site.data.unreached.places
+        .place-card
+          .card-inner
+            .card-front(style=`background-image: url('${place.image}')`)
+              .front-overlay
+                .place-name= place.name
+            .card-back
+              .back-content
+                h3.place-title= place.name
+                p.place-reason= place.reason

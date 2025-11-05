@@ -1,0 +1,90 @@
+/* 此生未到页面样式：栅格与翻转卡片 */
+
+#unreached {
+  margin-top: 1.5rem;
+}
+
+.unreached-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 16px;
+  align-items: stretch;
+}
+
+.place-card {
+  perspective: 1000px;
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 320px;
+  transform-style: preserve-3d;
+  transition: transform 0.6s ease;
+}
+
+.place-card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  inset: 0;
+  border-radius: 16px;
+  overflow: hidden;
+  backface-visibility: hidden;
+  box-shadow: var(--anzhiyu-shadow);
+}
+
+.card-front {
+  background-size: cover;
+  background-position: center;
+  display: flex;
+}
+
+.front-overlay {
+  width: 100%;
+  background: linear-gradient(160deg, rgba(0,0,0,0.0) 20%, rgba(0,0,0,0.45) 100%);
+  display: flex;
+  align-items: end;
+  padding: 16px;
+}
+
+.place-name {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.25rem;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.35);
+}
+
+.card-back {
+  transform: rotateY(180deg);
+  background: var(--anzhiyu-card-bg);
+  color: var(--anzhiyu-fontcolor);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.back-content {
+  padding: 18px 16px;
+  text-align: left;
+}
+
+.place-title {
+  margin: 0 0 6px;
+  font-size: 1.1rem;
+  color: var(--anzhiyu-main);
+}
+
+.place-reason {
+  margin: 0;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+@media (hover: none) {
+  /* 移动端不做翻转，直接展示正面 */
+  .place-card .card-inner { transform: none !important; }
+}
