@@ -3,7 +3,8 @@ each item in site.posts.data
   if item.date > maxDate
     - maxDate = item.date
 mixin postUI(posts)
-  each article , index in page.posts.data
+  - const postList = (posts && posts.data) ? posts.data : (page.posts && page.posts.data) ? page.posts.data : []
+  each article , index in postList
     - let link = article.link || article.path
     div(class = (index === 0 ? 'recent-post-item lastestpost-item' : 'recent-post-item') onclick=`pjax.loadUrl('${url_for(link)}')`)
       -

@@ -405,3 +405,11 @@ body[data-type="post"]
     &.popup-hide
       opacity: 0;
       animation: toRightFull .6s cubic-bezier(.42,0,.3,1.11);
+// 主页背景：底部居中，固定尺寸，不重复
+body[data-home="true"] #web_bg
+  background none
+  background-image url('/img/background.png')
+  background-position center bottom
+  background-repeat no-repeat
+  background-size 520px auto
+  transform rotate(0deg)

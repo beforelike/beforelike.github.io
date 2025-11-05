@@ -7,6 +7,8 @@
 
 hexo.extend.helper.register("inject_head_js", function () {
   const { darkmode, aside } = this.theme;
+  // 当 display_mode 被错误合并为布尔值时，回退为 'dark'，避免默认值为 'true' 导致亮色
+  const defaultDisplayMode = typeof this.theme.display_mode === "string" ? this.theme.display_mode : "dark";
   const start = darkmode.start || 6;
   const end = darkmode.end || 18;
   const { theme_color } = hexo.theme.config;
@@ -145,7 +147,12 @@ hexo.extend.helper.register("inject_head_js", function () {
         `;
     } else {
       darkmodeJs += `
-        if (t === 'dark') activateDarkMode()
+        // 若无本地偏好，按配置默认模式设置
+        if (t === undefined) {
+          const defaultMode = '${defaultDisplayMode}';
+          if (defaultMode === 'dark') activateDarkMode();
+          else activateLightMode();
+        } else if (t === 'dark') activateDarkMode()
         else if (t === 'light') activateLightMode()
       `;
     }

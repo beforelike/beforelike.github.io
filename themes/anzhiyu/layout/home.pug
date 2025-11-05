@@ -1,0 +1,7 @@
+extends includes/layout.pug
+
+block content
+  // 旧首页的简化版列表，仅渲染文章卡片（不分页）
+  include ./includes/mixins/post-ui.pug
+  #recent-posts.recent-posts
+    +postUI(site.posts)

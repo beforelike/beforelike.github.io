@@ -637,6 +637,24 @@ theme_color:
   meta_theme_color_light: "#f7f9fe"
   meta_theme_color_dark: "#18171d"
 
+# Landing Page (首页着陆页)
+# --------------------------------------
+# 控制新首页（/）是否启用星空着陆页，以及其交互与音频配置
+landing_page:
+  enable: true # 启用全屏着陆页（不展示导航、侧栏、原首页内容）
+  cta:
+    text: 进入主页 # CTA 按钮文案
+    link: /home/    # CTA 跳转链接（旧首页路径）
+  audio:
+    enable: true
+    # 可替换为你自己的音频地址（建议 webm/ogg/mp3，时长 < 30s，循环更佳）
+    src: /img/space-ambient.webm
+    volume: 0.4 # 初始音量（0.0 - 1.0）
+  effects:
+    meteor: true   # 随机流星效果（默认关闭）
+    parallax: true # 视差效果（默认关闭）
+    density: 1.5     # 星空密度（默认无星空）
+
 # 移动端侧栏
 sidebar:
   site_data:
@@ -960,11 +978,11 @@ fancybox: true
 # mermaid
 # see https://github.com/mermaid-js/mermaid
 mermaid:
-  enable: false
+  enable: true
   # built-in themes: default/forest/dark/neutral
   theme:
-    light: default
-    dark: dark
+    light: light
+    dark: default
 
 # Note (Bootstrap Callout)
 note:

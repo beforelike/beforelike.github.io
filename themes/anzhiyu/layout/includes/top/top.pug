@@ -6,13 +6,13 @@ if home_top_config.enable
       #bannerGroup
         #random-banner
           if theme.peoplecanvas.enable
-            canvas#peoplecanvas
-          else 
-            .banners-title
-              .banners-title-big=title
-              .banners-title-big=subTitle
-              .banners-title-small=siteText
-            include ../anzhiyu/tags-group-all.pug
+            // 将人群画布作为主页全屏背景。使用固定定位铺满视口，并置于内容下方。
+            canvas#peoplecanvas(style='position: fixed; inset: 0; width: 100vw; height: 100vh; z-index: -998; pointer-events: none;')
+          .banners-title
+            .banners-title-big=title
+            .banners-title-big=subTitle
+            .banners-title-small=siteText
+          include ../anzhiyu/tags-group-all.pug
 
           a#random-hover(href='javascript:toRandomPost()')
             i.anzhiyufont.anzhiyu-icon-paper-plane

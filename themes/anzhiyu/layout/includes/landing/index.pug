@@ -1,0 +1,47 @@
+- let lp = theme.landing_page || {}
+- let ctaText = lp.cta && lp.cta.text || '进入主页'
+- let ctaLink = lp.cta && lp.cta.link || '/home/'
+- let audioEnable = lp.audio && lp.audio.enable
+- let audioSrc = lp.audio && lp.audio.src
+- let audioVolume = lp.audio && lp.audio.volume
+- let effects = lp.effects || {}
+
+#landing(data-audio-enable=`${audioEnable}` data-audio-src=audioSrc data-audio-volume=audioVolume data-meteor=`${effects.meteor}` data-parallax=`${effects.parallax}` data-density=effects.density)
+  link(rel='stylesheet', href=url_for('/css/_page/landing.css'))
+  // 背景层：星空 Canvas（仅在启用效果时渲染）
+  if (effects && (effects.meteor || effects.parallax || (typeof effects.density === 'number' && effects.density > 0)))
+    canvas#landing-canvas
+
+  // 背景层：人群行走 Canvas（作为主页背景）
+  if theme.peoplecanvas && theme.peoplecanvas.enable
+    // 设为固定定位全屏，并置于正文下方
+    canvas#peoplecanvas(style='position: fixed; inset: 0; width: 100vw; height: 100vh; z-index: -998; pointer-events: none;')
+
+  // 前景层：宣言与按钮
+  .landing-content
+    .brand
+      h1.site-title= config.title
+      // 宣言文案，使用主题 subtitle 配置
+      .site-subtitle#subtitle
+
+    .cta-group
+      a.cta-button(href=ctaLink onclick=`pjax && pjax.loadUrl ? pjax.loadUrl('${url_for(ctaLink)}') : null`)
+        span.cta-text= ctaText
+      if audioEnable && audioSrc
+        button#audio-toggle.audio-toggle(type='button' aria-label='背景音效')
+          i.anzhiyufont.anzhiyu-icon-music
+
+  if audioEnable && audioSrc
+    audio#landing-audio(src=url_for(audioSrc) preload='auto' loop)
+
+  // 引入typed打字效果（根据主题subtitle配置自动加载CDN）
+  !=partial('includes/third-party/subtitle', {}, {cache: true})
+
+  // 着陆页逻辑脚本
+  script(defer src=url_for('/js/landing.js'))
+
+  // 加载人群行走脚本（按需加载 GSAP 与 people.js）
+  if theme.peoplecanvas && theme.peoplecanvas.enable
+    // 直接引入脚本，避免 PJAX/异步导致的加载中断
+    script(src=url_for(theme.asset.gsap_js))
+    script(defer src=url_for(theme.asset.people_js))
