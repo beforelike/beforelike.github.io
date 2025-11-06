@@ -10,11 +10,10 @@ doctype html
 html(lang=config.language data-theme=initialTheme class=htmlClassHideAside)
   head
     include ./head.pug
-  // 为首页样式选择提供标识
-  body(data-type="anzhiyu" data-home=is_home())
-    // 主页背景图：仅在首页添加内联样式，确保生效
+  body(data-type="anzhiyu")
     - var isHomepage = is_home() || is_current("/")
     - var homeBgStyle = isHomepage ? `background-image: url('${url_for('/img/background.png')}'); background-position: center 50px; background-repeat: no-repeat; background-size: calc(100vw) auto; transform: rotate(0deg)` : ''
+
     #web_bg(style=homeBgStyle)
     #an_music_bg
     if theme.preloader.enable

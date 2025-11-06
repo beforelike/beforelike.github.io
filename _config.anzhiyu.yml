@@ -1076,7 +1076,7 @@ home_top:
   timemode: date #date/updated
   title: 生活明朗
   subTitle: 万物可爱。
-  siteText: anheyu.com
+  siteText: beforelike.xyz
   category:
     - name: 前端
       path: /categories/前端开发/

@@ -1,6 +1,9 @@
 ## 此生未到（想去的地方）
 # 每个条目包含名称、配图与原因描述
 places:
+  - name: 希腊 圣托尼亚岛
+    image: https://ts1.tc.mm.bing.net/th/id/R-C.d14372b2cbf9ca42c8fe0a26069ca345?rik=sq5OCiXg01FbIw&riu=http%3a%2f%2fpic.qianye88.com%2f4kfengjing3c2d7641-6790-3d4e-8607-78864f43c451.jpg&ehk=GaHLxDUYGR6xIxIbGcZU9qGyj%2b41O9j1Urzs%2bmDTPiw%3d&risl=&pid=ImgRaw&r=0
+    reason: 听说这里是婚姻的殿堂
   - name: 冰岛
     image: https://images.unsplash.com/photo-1500048993953-d23a436266cf?q=80&w=1600&auto=format&fit=crop
     reason: 想去看极光与冰川，体验纯粹的冷与静。

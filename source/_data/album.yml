@@ -2,7 +2,7 @@
   path_name: /wordScenery
   type: 2
   description: 因为到不了世界各地，所以请网友们发来了各地的夕阳与风景🌇。
-  cover: https://upload-bbs.miyoushe.com/upload/2025/06/13/125766904/2cf2b6aea07bba089d0d17c4fea72d1b_5366629137934368264.png
+  cover: https://beforelike.github.io/picx-images-hosting/cfaa066e4f543fc6ba.5mnk0xw4g3.png
   top_background: https://bu.dusays.com/2023/06/30/649e546ada7dd.webp
   rowHeight: 220
   limit: 10
@@ -32,10 +32,67 @@
   description: 这里存放的是有关我自己的一些沙雕生活与有趣的事情。
   top_link: /album
   top_btn_text: 返回
-  top_background: https://bu.dusays.com/2023/04/09/64329399cea5a.webp
-  cover: https://bu.dusays.com/2023/04/09/64329399cea5a.webp
+  top_background: https://beforelike.github.io/picx-images-hosting/cdeae2684bb2a4eea1.syp4tbet6.jpg
+  cover: https://beforelike.github.io/picx-images-hosting/da1d330496005381be.6t6v9jl11k.png
   album_list:
     - date: 2022-10-24
-      content: 老妹的画
+      content: 我不知道啊
       image:
-        - https://bu.dusays.com/2023/04/09/643293997b92b.jpeg
+        - https://beforelike.github.io/picx-images-hosting/IMG_20240208_113322.8acztm48ee.webp
+
+- class_name: 有趣的事情
+  path_name: /fun-things
+  type: 1
+  description: 这里存放的是有关我自己的一些沙雕生活与有趣的事情。
+  top_link: /album
+  top_btn_text: 返回
+  top_background: https://beforelike.github.io/picx-images-hosting/6323c5dca980474c8e265be7013f021e.3d4izrqgkf.gif
+  cover: https://beforelike.github.io/picx-images-hosting/97bec9f5324ebe7829.1seshze612.png
+  album_list:
+    - date: 2022-10-24
+      content: 我不知道啊
+      image:
+        - https://beforelike.github.io/picx-images-hosting/IMG_20240208_113322.8acztm48ee.webp
+    - date: 2022-10-24
+      content: 深海是另一个异世界
+      image:
+        - https://beforelike.github.io/picx-images-hosting/halitrephes-maasi.491dq7glsh.png
+
+- class_name: 意义非凡的事情
+  path_name: /meanful-things
+  type: 2
+  rowHeight: 220
+  limit: 10
+  lazyload: true
+  btnLazyload: false
+  url: false
+  description: 这里存放的是有关我自己的一些意义非凡的事情。
+  top_link: /album
+  top_btn_text: 返回
+  top_background: https://beforelike.github.io/picx-images-hosting/71eb1701db6730d1e0.5q75yo73i4.jpg
+  cover: https://beforelike.github.io/picx-images-hosting/66ab78bdb5c7df58aa.86tedldz6k.png
+  album_list:
+    - date: 2022-10-24
+      content: 我不知道啊
+      address: 四川博物院
+      from: me
+      image:
+        - https://beforelike.github.io/picx-images-hosting/IMG_20240208_113322.8acztm48ee.webp
+    - date: 2024-10-25
+      content: 不知道以后还能看到你不
+      address: 泸沽
+      from: me
+      image:
+        - https://beforelike.github.io/picx-images-hosting/20240812_063610.6m3zz9yb19.jpg
+    - date: 2023-10-26
+      content: 这到底是对还是不对？
+      address: 冕宁中学
+      from: me
+      image:
+        - https://beforelike.github.io/picx-images-hosting/20250202/LieAll_20221102_083154063.70ag5cwehb.jpg
+    - date: 2025-6-30
+      content: 意义呢，有意义？为啥。
+      address: 鹤壁职业技术学院食堂
+      from: me
+      image:
+        - https://beforelike.github.io/picx-images-hosting/20250129/学校食堂桌子.5mnww13ant.jpg
